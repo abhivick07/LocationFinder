@@ -1,0 +1,2 @@
+# LocationFinder
+This Project aims to show the location of a given address on a map Using Google API. The address to be displayed are stored in a text file, a python script then reads this file of addresses and pass them to Google API which returns a JSON of each address. Then this JSON is parsed and the latitude longitude extracted from it are stored in a database. Then a second python script reads the database and maps the data to its corresponding location on the world map using Google API.
